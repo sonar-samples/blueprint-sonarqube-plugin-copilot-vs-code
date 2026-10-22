@@ -1,6 +1,10 @@
 # Set up the SonarQube plugin for GitHub Copilot in VS Code
 
-## TL;DR Overview
+> Last updated: October 2026
+>
+> The observed output reflects its recorded environment and may differ by release, organization, and entitlement. Check the current SonarQube documentation before using these instructions in a live environment.
+
+## TL;DR overview
 
 - The [SonarQube](https://www.sonarsource.com/products/sonarqube/) plugin for GitHub Copilot in VS Code adds dedicated `sonar-*` skills and a `sonarqube-reviewer` agent to the Agents Window, so Copilot can query quality gates, issues, coverage, duplication, and dependency risks from inside a chat session.
 - The plugin fits developers who run GitHub Copilot in the VS Code Agents Window against a project that SonarQube Cloud already analyzes in CI, and who want SonarQube results available without leaving the editor.
